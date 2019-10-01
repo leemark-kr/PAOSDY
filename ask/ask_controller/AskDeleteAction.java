@@ -4,12 +4,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class AskListAction implements Action {
-	
+public class AskDeleteAction implements Action {
+
 	@Override
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		System.out.println("AskListAction_execute()**********");
-		
+		System.out.println("AskDeleteAction_execute()**********");
 		/*
 		//ID 세션 체크
 		HttpSession session = request.getSession();
@@ -25,10 +24,9 @@ public class AskListAction implements Action {
 		
 		
 		
-		
-		//페이지 이동("./ask/ask_list.jsp")
+		//페이지 이동("./AskList.qa")
 		ActionForward forward = new ActionForward(); //
-		forward.setPath("./ask/ask_list.jsp");
+		forward.setPath("./AskList.qa");
 		forward.setRedirect(false);
 		return forward;
 	}

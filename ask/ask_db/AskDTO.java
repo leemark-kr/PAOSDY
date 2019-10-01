@@ -1,5 +1,15 @@
 package com.ask.db;
-
+/**
+ * ask_num 문의사항 게시물 번호
+ * ask_member_id 회원ID
+ * ask_item_num 문의사항 해당 제품번호
+ * ask_title 문의사항 제목
+ * ask_content 문의사항 본문내용
+ * ask_open 문의사항 비밀글여부
+ * ask_category 문의사항 구분
+ * ask_answer 문의사항 답변여부
+ * ask_file 문의사항 업로드파일
+ */
 public class AskDTO {
 	private int ask_num ;
 	private String ask_member_id;
